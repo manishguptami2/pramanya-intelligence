@@ -32,6 +32,12 @@ const SECTIONS = [
     title: "Keep sensitive data inside the boundary.",
     body: `Unmonitored prompts can send PII, secrets, and regulated content to third-party models. llmPolicyHub applies inline data protection at the control plane — masking and policy checks before tokens leave your perimeter — and streams audit telemetry to your SIEM or lake for SOC 2, HIPAA, and EU AI Act readiness.`,
   },
+  {
+    id: "innovators",
+    eyebrow: "Enabling Innovators",
+    title: "Lower the cost. Lower the risk. Raise who can build.",
+    body: `We enable students and developers to innovate with AI by lowering AI costs and mitigating the risks usually associated with AI — runaway spend, unsafe prompts, and ungoverned access — so more builders can experiment and ship with confidence.`,
+  },
 ] as const;
 
 export default function HomePage() {
